@@ -1,0 +1,378 @@
+html , body{
+   
+    margin: 0;
+    padding: 0;
+    /* overflow-x: hidden; */
+}
+
+
+/* first section */
+
+#main #first .first-bg{
+    background-color: #000;
+}
+#main #logo .logo-bg{
+  background-color: #000000f5;
+}
+
+#main .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  /* navbar section */
+
+  #side-navbar .navbar{
+    z-index: 999;
+    
+  }
+  #side-navbar .nav-bg{
+    background-color: #b41515;
+  }
+  #side-navbar .navbar-collapse .dropdown-menu{
+    background-color: #000;
+  }
+
+  #side-navbar .nav-item{
+    transform: skew(-15deg, 0deg);
+    background-color: #f1f1f13d;
+  }
+
+  #side-navbar .nav-item:hover{
+    background-color: red;
+    color: #fff;
+    font-weight: 600;
+  }
+  
+  #side-navbar #mySidenav{
+    width: 465px;
+  }
+  #side-navbar #mySidenav .dropdown-divider{
+    border: 1px solid gray;
+  }
+  
+
+  #side-navbar #mySidenav a{
+        color: #fff;
+  }
+  #side-navbar #mySidenav a:hover{
+    color: red;
+}
+
+#main #side-navbar #mySidenav {
+  width: 472px;
+}
+#main #side-navbar #mySidenav .nav-link:hover{
+  color: red !important;
+}
+
+#main #side-navbar #mySidenav .icon-bg{
+  transform: skew(-15deg, 0deg);
+  background-color: #f1f1f13d;
+}
+
+#main #side-navbar #mySidenav .vrline{
+  border: 7px solid red;
+  height: 26px;
+  transform: skew(-16deg , 0deg);
+}
+
+#main #side-navbar #mySidenav{
+  z-index: 999;
+}
+
+
+/* carousel */
+
+/* trending owl carousel */
+#playstation .owl-carousel .owl-item img{
+  width: 110px;
+}
+#playstation .trend-text{
+  font-size: 13px;
+  font-weight: 600;
+}
+#playstation .trend-sub-text{
+  font-size: 12px;
+}
+#playstation .owl-nav{
+  position: absolute;
+  right: 17px;
+  top: -15px;
+  color: rgba(83, 76, 76, 0.878);
+  font-size: 35px;
+}
+
+#playstation .owl-theme .owl-dots .owl-dot{
+  display: none;
+}
+
+
+
+#playstation #carouselExampleFade .vrline{
+  border: 7px solid red; 
+  height: 20px;
+  transform: skew(-16deg , 0deg);
+}
+#main #playstation #carouselExampleFade .car-1{
+  background-image: url(/assets/img/imges/hero/hero-1.jpg);
+  height: 904px;
+}
+
+#main #playstation #carouselExampleFade .car-2{
+  background-image: url(/assets/img/imges/hero/hero-2.jpg);
+  height: 904px;
+}
+
+#main #playstation #carouselExampleFade .car-3{
+  background-image: url(/assets/img/imges/hero/hero-3.jpg);
+  height: 904px;
+}
+
+#main #playstation #carouselExampleFade .car-text{
+  margin-top: 27%;
+  margin-left: 12%;
+  transform: skew(-15deg, 0deg);
+  background-color: #771616db;
+  width: max-content;
+ 
+}
+#main #playstation #carouselExampleFade .car-sub-text{
+ font-size: 30px;
+ font-weight: 500;
+  margin-left: 12%;
+}
+#main #playstation #carouselExampleFade .car-testi-img{
+  margin-left: 12%;
+}
+
+
+/* latest preview section */
+/* #latest .wrapper .slick-slide {
+  width: 350px !important;
+}
+
+#latest .wrapper{
+  width:100%;
+  padding-top: 20px;
+  
+  background-color: #000;
+}
+
+#latest .wrapper .carousel-1{
+  
+  margin:0px auto;
+}
+#latest .slick-slide{
+  margin:10px;
+}
+#latest .slick-slide img{
+  width:100%;
+ 
+}
+#latest .wrapper .slick-dots li button:before {
+  font-size:20px;
+  color:white;
+}
+.slick-track{
+  width: 821% !important;
+}
+#latest .latest-bg{
+  background-color: #000 !important;
+} */
+#latest .carosel-root {
+  position: relative;
+}
+
+#latest .latest-bg{
+  background-color: #000 !important;
+} 
+
+#latest .carosel-nav {
+  position: absolute;
+  text-align: center;
+  padding: 0 4px;
+  border: 1px solid #000;
+  border-radius: 70%;
+  background: rgba(0, 0, 0, 0.3);
+  top: -31px;
+  color: #f4f4f41d;
+  cursor: pointer;
+}
+
+#latest .carosel-nav-left {
+  left: 94%;
+}
+
+#latest .carosel-nav-right {
+  right: 26px;
+}
+
+#latest .slick-dots li button:before{
+  font-size: 20px;
+}
+#latest .slick-dots li.slick-active button:before{
+  color: #b41515;
+}
+#latest .slick-dots{
+  bottom: -75px;
+}
+
+
+
+
+
+/* news and update section */
+
+
+ #news .vrline{
+  border: 7px solid red; 
+  height: 20px;
+  transform: skew(-16deg , 0deg);
+}
+
+ #news .icon-bg{
+  transform: skew(-2deg, 0deg);
+  background-color: #3d3737ef;
+}
+ #news .icon-bg:hover{
+  background-color: rgb(0, 170, 255);
+  
+}
+ #news .icon-border{
+  border: 2px solid #444;
+  transform: skew(-16deg , 0deg);
+}
+ #news  .icon-border:hover{
+  border-color: rgb(0, 170, 255);
+}
+
+ #news .hardware-text{
+  color: #fff;
+  cursor: pointer;
+}
+ #news .hardware-text:hover{
+  color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+ #foot-sec .foot-icon{
+  transform: skew(-15deg, 0deg);
+  background-color: #3d3737ef;
+}
+
+ #foot-sec .foot-bg{
+  background-color: #000;
+}
+
+ #foot-sec .vrline{
+  border: 7px solid red; 
+  height: 20px;
+  transform: skew(-16deg , 0deg);
+}
+
+ #foot-sec .foot-border p{
+  border: 2px solid #444;
+  transform: skew(-16deg , 0deg);
+  width: max-content;
+  cursor: pointer;
+}

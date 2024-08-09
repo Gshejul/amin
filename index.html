@@ -1,0 +1,1516 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- fontawesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="/assets/css/style.css" />
+
+    <!-- owl cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+
+    <!-- slick cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+
+    <title>AMIN</title>
+  </head>
+  <body onload="closeNav()">
+    <section id="main">
+
+
+      <!-- section first -->
+      <section id="first">
+        <div class="container-fluid first-bg">
+          <div class="container d-flex justify-content-between pt-2">
+            <div class="d-flex my-2">
+              <div class="d-flex text-white">
+                <i class="fa-sharp fa-solid fa-gear p-1"></i>
+                <p class="mx-2">20 <sup>C</sup>London</p>
+                <p class="mx-2">/</p>
+              </div>
+              <div class="d-flex text-white">
+                <i class="fa-sharp fa-solid fa-clock p-1"></i>
+                <p class="mx-2">Aug 01, 2019</p>
+                <p class="mx-2">/</p>
+              </div>
+              <div class="d-flex text-white">
+                <i class="fa-sharp fa-solid fa-right-to-bracket p-1"></i>
+                <p class="mx-2">Login/Sign up</p>
+              </div>
+            </div>
+            <div class="d-flex text-white my-2">
+              <i class="fa-brands fa-facebook mx-1"></i>
+              <i class="fa-brands fa-youtube mx-1"></i>
+              <i class="fa-brands fa-twitter mx-1"></i>
+              <i class="fa-brands fa-instagram mx-1"></i>
+              <i class="fa-regular fa-envelope mx-1"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- section logo second -->
+
+      <section id="logo">
+        <div class="container-fluid logo-bg">
+          <div class="container p-5">
+            <div class="text-center">
+              <img src="/assets/img/imges/f-logo.png" alt="" srcset="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- section navbar -->
+
+      <section id="side-navbar">
+        <div class="cobtainer-fluid nav-bg">
+          <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light nav-bg">
+              <div class="container-fluid d-flex justify-content-between">
+                <div>
+                  <span
+                    style="font-size: 30px; cursor: pointer"
+                    onclick="openNav()"
+                    class="nav-item"
+                    >&#9776;
+                  </span>
+                </div>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                  class="collapse navbar-collapse text-center"
+                  id="navbarSupportedContent"
+                >
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+                    <li class="nav-item mx-2">
+                      <a
+                        class="nav-link text-white active"
+                        aria-current="page"
+                        href="#"
+                        >HOME</a
+                      >
+                    </li>
+
+                    <li class="nav-item mx-2 dropdown">
+                      <a
+                        class="nav-link text-white dropdown-toggle"
+                        href="#"
+                        id="navbarDropdown"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        PLATFORM
+                      </a>
+                      <ul
+                        class="dropdown-menu"
+                        aria-labelledby="navbarDropdown"
+                      >
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <hr class="dropdown-divider" />
+                        <a class="dropdown-item" href="#"
+                          >Something else here</a
+                        >
+                      </ul>
+                    </li>
+
+                    <li class="nav-item mx-2 dropdown">
+                      <a
+                        class="nav-link text-white dropdown-toggle"
+                        href="#"
+                        id="navbarDropdown"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        PAGES
+                      </a>
+                      <ul
+                        class="dropdown-menu"
+                        aria-labelledby="navbarDropdown"
+                      >
+                        <a class="dropdown-item" href="#">CATEGORIES</a>
+                        <a class="dropdown-item" href="#">CATEGORIES GRID</a>
+                        <a class="dropdown-item" href="#">TYPOGRAPHY</a>
+                        <a class="dropdown-item" href="#">POST DEFAULT</a>
+                        <a class="dropdown-item" href="#">POST GALLERY</a>
+                        <a class="dropdown-item" href="#">POST REVIEW</a>
+                        <a class="dropdown-item" href="#">CONTACT</a>
+                      </ul>
+                    </li>
+
+                    <li class="nav-item mx-2 dropdown">
+                      <a
+                        class="nav-link text-white dropdown-toggle"
+                        href="#"
+                        id="navbarDropdown"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        REVIEWS
+                      </a>
+                      <ul
+                        class="dropdown-menu"
+                        aria-labelledby="navbarDropdown"
+                      >
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <hr class="dropdown-divider" />
+                        <a class="dropdown-item" href="#"
+                          >Something else here</a
+                        >
+                      </ul>
+                    </li>
+
+                    <li class="nav-item mx-2 dropdown">
+                      <a
+                        class="nav-link text-white dropdown-toggle"
+                        href="#"
+                        id="navbarDropdown"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        WINDOWS
+                      </a>
+                      <ul
+                        class="dropdown-menu"
+                        aria-labelledby="navbarDropdown"
+                      >
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <hr class="dropdown-divider" />
+                        <a class="dropdown-item" href="#"
+                          >Something else here</a
+                        >
+                      </ul>
+                    </li>
+                    <li class="nav-item mx-2 dropdown">
+                      <a
+                        class="nav-link text-white dropdown-toggle"
+                        href="#"
+                        id="navbarDropdown"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        VIDEOS
+                      </a>
+                      <ul
+                        class="dropdown-menu"
+                        aria-labelledby="navbarDropdown"
+                      >
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <hr class="dropdown-divider" />
+                        <a class="dropdown-item" href="#"
+                          >Something else here</a
+                        >
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+
+            <!-- side nav started -->
+            <div id="mySidenav" class="sidenav">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+                >&times;</a
+              >
+
+              <div class="text-center">
+                <img
+                  src="/assets/img/imges/logo.png"
+                  alt=""
+                  srcset=""
+                  width="290px"
+                />
+              </div>
+
+              <!-- side nav link -->
+              <div class="pt-5 mx-5">
+                <a href="#">HOME</a>
+                <hr class="mx-4 dropdown-divider" />
+                <a
+                  class="nav-link text-white dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  PLATFORM
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <hr class="dropdown-divider" />
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </ul>
+                <hr class="mx-4 dropdown-divider" />
+                <a
+                  class="nav-link text-white dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  PAGES
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <hr class="dropdown-divider" />
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </ul>
+                <hr class="mx-4 dropdown-divider" />
+                <a
+                  class="nav-link text-white dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  WINDOWS
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <hr class="dropdown-divider" />
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </ul>
+                <hr class="mx-4 dropdown-divider" />
+                <a
+                  class="nav-link text-white dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  VIDEOS
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <hr class="dropdown-divider" />
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </ul>
+              </div>
+
+              <!-- copyright -->
+              <div class="pt-5 mx-5">
+                <p class="mx-4 text-white">
+                  Copyright
+                  <span><i class="fa-regular fa-copyright"></i></span> 2019
+                  colorlib Inc. All rights reserved
+                </p>
+              </div>
+
+              <!-- icons -->
+              <div class="mx-5 pt-5">
+                <i
+                  class="fa-brands fa-facebook icon-bg text-white p-2 mx-2"
+                ></i>
+                <i class="fa-brands fa-youtube icon-bg text-white p-2 mx-2"></i>
+                <i class="fa-brands fa-twitter icon-bg text-white p-2 mx-2"></i>
+                <i
+                  class="fa-brands fa-instagram icon-bg text-white p-2 mx-2"
+                ></i>
+              </div>
+
+              <!-- instagram images -->
+              <div class="pt-5 mx-5">
+                <div class="d-flex">
+                  <div class="vrline"></div>
+                  <h4 class="text-white mx-2"><i> INSTAGRAM </i></h4>
+                </div>
+                <div>
+                  <div class="row my-4">
+                    <div class="col-6">
+                      <img
+                        src="/assets/img/imges/instagram/ip-1.jpg"
+                        alt=""
+                        srcset=""
+                      />
+                    </div>
+                    <div class="col-6">
+                      <img
+                        src="/assets/img/imges/instagram/ip-2.jpg"
+                        alt=""
+                        srcset=""
+                      />
+                    </div>
+                    <div class="col-6">
+                      <img
+                        src="/assets/img/imges/instagram/ip-3.jpg"
+                        alt=""
+                        srcset=""
+                      />
+                    </div>
+                    <div class="col-6">
+                      <img
+                        src="/assets/img/imges/instagram/ip-4.jpg"
+                        alt=""
+                        srcset=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- side nav end -->
+          </div>
+        </div>
+      </section>
+
+      <!-- carousel section start -->
+
+      <section id="playstation">
+        <div class="">
+          <div
+            id="carouselExampleFade"
+            class="carousel slide carousel-fade"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <!------------------- car-1 ------------------------------>
+              <div class="carousel-item active car-1">
+                <div class="row">
+                  <div class="col-8">
+                    <div>
+                      <p class="text-uppercase text-white car-text">
+                        playstation
+                      </p>
+                      <p class="text-white car-sub-text">
+                        DOWNWELL AND SPACE HULK: <br />
+                        TACTICS ARE COMING TO XBOX <br />
+                        GAME PASS FOR PC
+                      </p>
+                    </div>
+                    <div>
+                      <img
+                        src="/assets/img/imges/hero/meta-pic.jpg"
+                        alt=""
+                        srcset=""
+                        class="rounded-pill car-testi-img"
+                      />
+                      <i class="text-white"
+                        >by Marcin Jankwoski / Aug , 01 2019</i
+                      >
+                    </div>
+                  </div>
+                  <div class="col-4">
+                        <div
+                          class="owl-carousel owl-theme"
+                          style="top: 20%; background-color: black; width: 400px"
+                        >
+                        <!-- item 1 -->
+                          <div class="item text-white">
+                            <div class="pt-3 d-flex px-3 py-3">
+                              <div class="vrline"></div>
+                              <i class="text-white mx-2">TRENDING POSTS</i>
+                            </div>
+                            <!-- image 1 -->
+                            <div class="px-3 py-3 d-flex">
+                              <div>
+                                <img
+                                  src="/assets/img/imges/trending/editor-1.jpg"
+                                  alt=""
+                                  srcset=""
+                                />
+                              </div>
+                              <div class="mx-3">
+                                <p class="text-uppercase text-white trend-text">
+                                  java developer is making a game where you making a
+                                  stuff Lorem ipsum dolor sit amet. <br>
+                                   <i class="text-muted trend-sub-text">
+                                  Aug , 01 2019 /<span><i class="fa-sharp fa-regular fa-comment"></i></span>12</i> 
+                                </p>
+                                
+                              </div>
+                            </div>
+                            <!--  image 2-->
+                            
+                            <div class="px-3 py-3 d-flex">
+                              <div>
+                                <img
+                                  src="/assets/img/imges/trending/editor-2.jpg"
+                                  alt=""
+                                  srcset=""
+                                />
+                              </div>
+                              <div class="mx-3">
+                                <p class="text-uppercase text-white trend-text">
+                                  java developer is making a game where you making a
+                                  stuff Lorem ipsum dolor sit amet. <br>
+                                   <i class="text-muted trend-sub-text">
+                                  Aug , 01 2019 /<span><i class="fa-sharp fa-regular fa-comment"></i></span>12</i> 
+                                </p>
+                                
+                              </div>
+                            </div>
+                            <!-- image 3 -->
+                            <div class="px-3 py-3 d-flex">
+                              <div>
+                                <img
+                                  src="/assets/img/imges/trending/trending-1.jpg"
+                                  alt=""
+                                  srcset=""
+                                />
+                              </div>
+                              <div class="mx-3">
+                                <p class="text-uppercase text-white trend-text">
+                                  java developer is making a game where you making a
+                                  stuff Lorem ipsum dolor sit amet. <br>
+                                   <i class="text-muted trend-sub-text">
+                                  Aug , 01 2019 /<span><i class="fa-sharp fa-regular fa-comment"></i></span>12</i> 
+                                </p>
+                                
+                              </div>
+                            </div>
+                            <!--  image 4-->
+                            <div class="px-3 py-3 d-flex">
+                              <div>
+                                <img
+                                  src="/assets/img/imges/trending/trending-2.jpg"
+                                  alt=""
+                                  srcset=""
+                                />
+                              </div>
+                              <div class="mx-3">
+                                <p class="text-uppercase text-white trend-text">
+                                  java developer is making a game where you making a
+                                  stuff Lorem ipsum dolor sit amet. <br>
+                                   <i class="text-muted trend-sub-text">
+                                  Aug , 01 2019 /<span><i class="fa-sharp fa-regular fa-comment"></i></span>12</i> 
+                                </p>
+                                
+                              </div>
+                            </div>
+                          </div>
+                          <!-- item 2 -->
+                          <div class="item text-white">
+                            <div class="pt-3 d-flex px-3 py-3">
+                              <div class="vrline"></div>
+                              <i class="text-white mx-1">TRENDING POSTS</i>
+                            </div>
+                            <!--  image 1-->
+                            <div class="px-3 py-3 d-flex">
+                              <div>
+                                <img
+                                  src="/assets/img/imges/trending/editor-1.jpg"
+                                  alt=""
+                                  srcset=""
+                                />
+                              </div>
+                              <div class="mx-3">
+                                <p class="text-uppercase text-white trend-text">
+                                  java developer is making a game where you making a
+                                  stuff Lorem ipsum dolor sit amet. <br>
+                                   <i class="text-muted trend-sub-text">
+                                  Aug , 01 2019 /<span><i class="fa-sharp fa-regular fa-comment"></i></span>12</i> 
+                                </p>
+                                
+                              </div>
+                            </div>
+                            <!--  image 2-->
+                            <div class="px-3 py-3 d-flex">
+                              <div>
+                                <img
+                                  src="/assets/img/imges/trending/editor-2.jpg"
+                                  alt=""
+                                  srcset=""
+                                />
+                              </div>
+                              <div class="mx-3">
+                                <p class="text-uppercase text-white trend-text">
+                                  java developer is making a game where you making a
+                                  stuff Lorem ipsum dolor sit amet. <br>
+                                   <i class="text-muted trend-sub-text">
+                                  Aug , 01 2019 /<span><i class="fa-sharp fa-regular fa-comment"></i></span>12</i> 
+                                </p>
+                                
+                              </div>
+                            </div>
+                            <!-- image 3 -->
+                            <div class="px-3 py-3 d-flex">
+                              <div>
+                                <img
+                                  src="/assets/img/imges/trending/trending-1.jpg"
+                                  alt=""
+                                  srcset=""
+                                />
+                              </div>
+                              <div class="mx-3">
+                                <p class="text-uppercase text-white trend-text">
+                                  java developer is making a game where you making a
+                                  stuff Lorem ipsum dolor sit amet. <br>
+                                   <i class="text-muted trend-sub-text">
+                                  Aug , 01 2019 /<span><i class="fa-sharp fa-regular fa-comment"></i></span>12</i> 
+                                </p>
+                                
+                              </div>
+                            </div>
+                            <!--  image 4-->
+                            <div class="px-3 py-3 d-flex">
+                              <div>
+                                <img
+                                  src="/assets/img/imges/trending/trending-2.jpg"
+                                  alt=""
+                                  srcset=""
+                                />
+                              </div>
+                              <div class="mx-3">
+                                <p class="text-uppercase text-white trend-text">
+                                  java developer is making a game where you making a
+                                  stuff Lorem ipsum dolor sit amet. <br>
+                                   <i class="text-muted trend-sub-text">
+                                  Aug , 01 2019 /<span><i class="fa-sharp fa-regular fa-comment"></i></span>12</i> 
+                                </p>
+                                
+                              </div>
+                            </div>
+                          </div>
+                          
+                        </div>
+                  </div>
+                </div>
+              </div>
+              <!------------------- car-2 ------------------------------>
+              <div class="carousel-item car-2">
+                <div class="row">
+                  <div class="col-8">
+                    <div>
+                      <p class="text-uppercase text-white car-text">
+                        playstation
+                      </p>
+                      <p class="text-white car-sub-text">
+                        DOWNWELL AND SPACE HULK: <br />
+                        TACTICS ARE COMING TO XBOX <br />
+                        GAME PASS FOR PC
+                      </p>
+                    </div>
+                    <div>
+                      <img
+                        src="/assets/img/imges/hero/meta-pic.jpg"
+                        alt=""
+                        srcset=""
+                        class="rounded-pill car-testi-img"
+                      />
+                      <i class="text-white"
+                        >by Marcin Jankwoski / Aug , 01 2019</i
+                      >
+                    </div>
+                  </div>
+                  <div class="col-4">
+                          <div
+                          class="owl-carousel owl-theme"
+                          style="top: 20%; background-color: black; width: 400px"
+                        >
+                        <!-- item 1 -->
+                          <div class="item text-white">
+                            <div class="pt-3 d-flex px-3 py-3">
+                              <div class="vrline"></div>
+                              <i class="text-white mx-1">TRENDING POSTS</i>
+                            </div>
+                            <!-- image 1 -->
+                            <div class="px-3 py-3 d-flex">
+                              <div>
+                                <img
+                                  src="/assets/img/imges/trending/editor-1.jpg"
+                                  alt=""
+                                  srcset=""
+                                />
+                              </div>
+                              <div class="mx-3">
+                                <p class="text-uppercase text-white trend-text">
+                                  java developer is making a game where you making a
+                                  stuff Lorem ipsum dolor sit amet. <br>
+                                   <i class="text-muted trend-sub-text">
+                                  Aug , 01 2019 /<span><i class="fa-sharp fa-regular fa-comment"></i></span>12</i> 
+                                </p>
+                                
+                              </div>
+                            </div>
+                            <!--  image 2-->
+                            
+                            <div class="px-3 py-3 d-flex">
+                              <div>
+                                <img
+                                  src="/assets/img/imges/trending/editor-2.jpg"
+                                  alt=""
+                                  srcset=""
+                                />
+                              </div>
+                              <div class="mx-3">
+                                <p class="text-uppercase text-white trend-text">
+                                  java developer is making a game where you making a
+                                  stuff Lorem ipsum dolor sit amet. <br>
+                                   <i class="text-muted trend-sub-text">
+                                  Aug , 01 2019 /<span><i class="fa-sharp fa-regular fa-comment"></i></span>12</i> 
+                                </p>
+                                
+                              </div>
+                            </div>
+                            <!-- image 3 -->
+                            <div class="px-3 py-3 d-flex">
+                              <div>
+                                <img
+                                  src="/assets/img/imges/trending/trending-1.jpg"
+                                  alt=""
+                                  srcset=""
+                                />
+                              </div>
+                              <div class="mx-3">
+                                <p class="text-uppercase text-white trend-text">
+                                  java developer is making a game where you making a
+                                  stuff Lorem ipsum dolor sit amet. <br>
+                                   <i class="text-muted trend-sub-text">
+                                  Aug , 01 2019 /<span><i class="fa-sharp fa-regular fa-comment"></i></span>12</i> 
+                                </p>
+                                
+                              </div>
+                            </div>
+                            <!--  image 4-->
+                            <div class="px-3 py-3 d-flex">
+                              <div>
+                                <img
+                                  src="/assets/img/imges/trending/trending-2.jpg"
+                                  alt=""
+                                  srcset=""
+                                />
+                              </div>
+                              <div class="mx-3">
+                                <p class="text-uppercase text-white trend-text">
+                                  java developer is making a game where you making a
+                                  stuff Lorem ipsum dolor sit amet. <br>
+                                   <i class="text-muted trend-sub-text">
+                                  Aug , 01 2019 /<span><i class="fa-sharp fa-regular fa-comment"></i></span>12</i> 
+                                </p>
+                                
+                              </div>
+                            </div>
+                          </div>
+                          <!-- item 2 -->
+                          <div class="item text-white">
+                            <div class="pt-3 d-flex px-3 py-3">
+                              <div class="vrline"></div>
+                              <i class="text-white mx-1">TRENDING POSTS</i>
+                            </div>
+                            <!--  image 1-->
+                            <div class="px-3 py-3 d-flex">
+                              <div>
+                                <img
+                                  src="/assets/img/imges/trending/editor-1.jpg"
+                                  alt=""
+                                  srcset=""
+                                />
+                              </div>
+                              <div class="mx-3">
+                                <p class="text-uppercase text-white trend-text">
+                                  java developer is making a game where you making a
+                                  stuff Lorem ipsum dolor sit amet. <br>
+                                   <i class="text-muted trend-sub-text">
+                                  Aug , 01 2019 /<span><i class="fa-sharp fa-regular fa-comment"></i></span>12</i> 
+                                </p>
+                                
+                              </div>
+                            </div>
+                            <!--  image 2-->
+                            <div class="px-3 py-3 d-flex">
+                              <div>
+                                <img
+                                  src="/assets/img/imges/trending/editor-2.jpg"
+                                  alt=""
+                                  srcset=""
+                                />
+                              </div>
+                              <div class="mx-3">
+                                <p class="text-uppercase text-white trend-text">
+                                  java developer is making a game where you making a
+                                  stuff Lorem ipsum dolor sit amet. <br>
+                                   <i class="text-muted trend-sub-text">
+                                  Aug , 01 2019 /<span><i class="fa-sharp fa-regular fa-comment"></i></span>12</i> 
+                                </p>
+                                
+                              </div>
+                            </div>
+                            <!-- image 3 -->
+                            <div class="px-3 py-3 d-flex">
+                              <div>
+                                <img
+                                  src="/assets/img/imges/trending/trending-1.jpg"
+                                  alt=""
+                                  srcset=""
+                                />
+                              </div>
+                              <div class="mx-3">
+                                <p class="text-uppercase text-white trend-text">
+                                  java developer is making a game where you making a
+                                  stuff Lorem ipsum dolor sit amet. <br>
+                                   <i class="text-muted trend-sub-text">
+                                  Aug , 01 2019 /<span><i class="fa-sharp fa-regular fa-comment"></i></span>12</i> 
+                                </p>
+                                
+                              </div>
+                            </div>
+                            <!--  image 4-->
+                            <div class="px-3 py-3 d-flex">
+                              <div>
+                                <img
+                                  src="/assets/img/imges/trending/trending-2.jpg"
+                                  alt=""
+                                  srcset=""
+                                />
+                              </div>
+                              <div class="mx-3">
+                                <p class="text-uppercase text-white trend-text">
+                                  java developer is making a game where you making a
+                                  stuff Lorem ipsum dolor sit amet. <br>
+                                   <i class="text-muted trend-sub-text">
+                                  Aug , 01 2019 /<span><i class="fa-sharp fa-regular fa-comment"></i></span>12</i> 
+                                </p>
+                                
+                              </div>
+                            </div>
+                          </div>
+                          
+                        </div>
+                  </div>
+                </div>
+              </div>
+              <!------------------- car-3 ------------------------------>
+              <div class="carousel-item car-3">
+                <div class="row">
+                  <div class="col-8">
+                    <div>
+                      <p class="text-uppercase text-white car-text">
+                        playstation
+                      </p>
+                      <p class="text-white car-sub-text">
+                        DOWNWELL AND SPACE HULK: <br />
+                        TACTICS ARE COMING TO XBOX <br />
+                        GAME PASS FOR PC
+                      </p>
+                    </div>
+                    <div>
+                      <img
+                        src="/assets/img/imges/hero/meta-pic.jpg"
+                        alt=""
+                        srcset=""
+                        class="rounded-pill car-testi-img"
+                      />
+                      <i class="text-white"
+                        >by Marcin Jankwoski / Aug , 01 2019</i
+                      >
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div
+                    class="owl-carousel owl-theme"
+                    style="top: 20%; background-color: black; width: 400px"
+                  >
+                  <!-- item 1 -->
+                    <div class="item text-white">
+                      <div class="pt-3 d-flex px-3 py-3">
+                        <div class="vrline"></div>
+                        <i class="text-white mx-1">TRENDING POSTS</i>
+                      </div>
+                      <!-- image 1 -->
+                      <div class="px-3 py-3 d-flex">
+                        <div>
+                          <img
+                            src="/assets/img/imges/trending/editor-1.jpg"
+                            alt=""
+                            srcset=""
+                          />
+                        </div>
+                        <div class="mx-3">
+                          <p class="text-uppercase text-white trend-text">
+                            java developer is making a game where you making a
+                            stuff Lorem ipsum dolor sit amet.
+                          </p>
+                          <i class="text-muted trend-sub-text">
+                            Aug , 01 2019 /
+                            <span
+                              ><i
+                                class="fa-sharp fa-regular fa-comment"
+                              ></i></span
+                            >12</i
+                          >
+                        </div>
+                      </div>
+                      <!--  image 2-->
+                      
+                      <div class="px-3 py-3 d-flex">
+                        <div>
+                          <img
+                            src="/assets/img/imges/trending/editor-2.jpg"
+                            alt=""
+                            srcset=""
+                          />
+                        </div>
+                        <div class="mx-3">
+                          <p class="text-uppercase text-white trend-text">
+                            java developer is making a game where you making a
+                            stuff Lorem ipsum dolor sit amet.
+                          </p>
+                          <i class="text-muted trend-sub-text">
+                            Aug , 01 2019 /
+                            <span
+                              ><i
+                                class="fa-sharp fa-regular fa-comment"
+                              ></i></span
+                            >12</i
+                          >
+                        </div>
+                      </div>
+                      <!-- image 3 -->
+                      <div class="px-3 py-3 d-flex">
+                        <div>
+                          <img
+                            src="/assets/img/imges/trending/trending-1.jpg"
+                            alt=""
+                            srcset=""
+                          />
+                        </div>
+                        <div class="mx-3">
+                          <p class="text-uppercase text-white trend-text">
+                            java developer is making a game where you making a
+                            stuff Lorem ipsum dolor sit amet.
+                          </p>
+                          <i class="text-muted trend-sub-text">
+                            Aug , 01 2019 /
+                            <span
+                              ><i
+                                class="fa-sharp fa-regular fa-comment"
+                              ></i></span
+                            >12</i
+                          >
+                        </div>
+                      </div>
+                      <!--  image 4-->
+                      <div class="px-3 py-3 d-flex">
+                        <div>
+                          <img
+                            src="/assets/img/imges/trending/trending-2.jpg"
+                            alt=""
+                            srcset=""
+                          />
+                        </div>
+                        <div class="mx-3">
+                          <p class="text-uppercase text-white trend-text">
+                            java developer is making a game where you making a
+                            stuff Lorem ipsum dolor sit amet.
+                          </p>
+                          <i class="text-muted trend-sub-text">
+                            Aug , 01 2019 /
+                            <span
+                              ><i
+                                class="fa-sharp fa-regular fa-comment"
+                              ></i></span
+                            >12</i
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <!-- item 2 -->
+                    <div class="item text-white">
+                      <div class="pt-3 d-flex px-3 py-3">
+                        <div class="vrline"></div>
+                        <i class="text-white mx-1">TRENDING POSTS</i>
+                      </div>
+                      <!--  image 1-->
+                      <div class="px-3 py-3 d-flex">
+                        <div>
+                          <img
+                            src="/assets/img/imges/trending/editor-1.jpg"
+                            alt=""
+                            srcset=""
+                          />
+                        </div>
+                        <div class="mx-3">
+                          <p class="text-uppercase text-white trend-text">
+                            java developer is making a game where you making a
+                            stuff Lorem ipsum dolor sit amet.
+                          </p>
+                          <i class="text-muted trend-sub-text">
+                            Aug , 01 2019 /
+                            <span
+                              ><i
+                                class="fa-sharp fa-regular fa-comment"
+                              ></i></span
+                            >12</i
+                          >
+                        </div>
+                      </div>
+                      <!--  image 2-->
+                      <div class="px-3 py-3 d-flex">
+                        <div>
+                          <img
+                            src="/assets/img/imges/trending/editor-2.jpg"
+                            alt=""
+                            srcset=""
+                          />
+                        </div>
+                        <div class="mx-3">
+                          <p class="text-uppercase text-white trend-text">
+                            java developer is making a game where you making a
+                            stuff Lorem ipsum dolor sit amet.
+                          </p>
+                          <i class="text-muted trend-sub-text">
+                            Aug , 01 2019 /
+                            <span
+                              ><i
+                                class="fa-sharp fa-regular fa-comment"
+                              ></i></span
+                            >12</i
+                          >
+                        </div>
+                      </div>
+                      <!-- image 3 -->
+                      <div class="px-3 py-3 d-flex">
+                        <div>
+                          <img
+                            src="/assets/img/imges/trending/trending-1.jpg"
+                            alt=""
+                            srcset=""
+                          />
+                        </div>
+                        <div class="mx-3">
+                          <p class="text-uppercase text-white trend-text">
+                            java developer is making a game where you making a
+                            stuff Lorem ipsum dolor sit amet.
+                          </p>
+                          <i class="text-muted trend-sub-text">
+                            Aug , 01 2019 /
+                            <span
+                              ><i
+                                class="fa-sharp fa-regular fa-comment"
+                              ></i></span
+                            >12</i
+                          >
+                        </div>
+                      </div>
+                      <!--  image 4-->
+                      <div class="px-3 py-3 d-flex">
+                        <div>
+                          <img
+                            src="/assets/img/imges/trending/trending-2.jpg"
+                            alt=""
+                            srcset=""
+                          />
+                        </div>
+                        <div class="mx-3">
+                          <p class="text-uppercase text-white trend-text">
+                            java developer is making a game where you making a
+                            stuff Lorem ipsum dolor sit amet.
+                          </p>
+                          <i class="text-muted trend-sub-text">
+                            Aug , 01 2019 /
+                            <span
+                              ><i
+                                class="fa-sharp fa-regular fa-comment"
+                              ></i></span
+                            >12</i
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    
+                  </div>
+            </div>
+                </div>
+              </div>
+            </div>
+
+
+            <!-- <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleFade"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button> -->
+            <!-- <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleFade"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button> -->
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- owl carousel latest preview section start -->
+
+    <section id="latest">
+      <!-- <div class=" latest-bg ">
+      <div class="wrapper">
+        
+            <div class="carousel-1">
+              
+              <div>
+                <img src="/assets/img/imges/latest-preview/lp-1.jpg" width="">
+                <div class="detail text-white">
+                  <p>
+                    <b>TEAMFIGHT TACTICS IS IN<br />CHAOS AFTER PATCH... </b>
+                  </p>
+                </div>
+                <div class="d-flex">
+                  <i class="mx-4"><span><i class="fa-regular fa-clock"></i></span></i>
+                  <i >Aug 01,2019 / <span><i class="fa-regular fa-comment"></i></span> 12</i>
+                </div>
+              </div>
+              <div><img src="/assets/img/imges/latest-preview/lp-2.jpg" width=""></div>
+              <div><img src="/assets/img/imges/latest-preview/lp-3.jpg" width=""></div>
+              <div><img src="/assets/img/imges/latest-preview/lp-1.jpg" width=""></div>
+              <div><img src="/assets/img/imges/latest-preview/lp-4.jpg" width=""></div>
+            </div>
+            </div>
+      </div> -->
+
+      <div class="container-fluid  latest-bg">
+      <div class="container pt-5 pb-5 latest-bg">
+        <div class="carosel-root">
+          <div class="carosel">
+            <div class="carosel-item item-1">
+              <img src="/assets/img/imges/latest-preview/lp-1.jpg" alt="" srcset="" width="92%">
+            </div>
+            <div class="carosel-item item-2">
+              <img src="/assets/img/imges/latest-preview/lp-2.jpg" alt="" srcset="" width="92%">
+            </div>
+            <div class="carosel-item item-3">
+              <img src="/assets/img/imges/latest-preview/lp-1.jpg" alt="" srcset="" width="92%">
+            </div>
+            <div class="carosel-item item-4">
+              <img src="/assets/img/imges/latest-preview/lp-4.jpg" alt="" srcset="" width="92%">
+            </div>
+            <div class="carosel-item item-5">
+              <img src="/assets/img/imges/latest-preview/lp-3.jpg" alt="" srcset="" width="92%">
+            </div>
+          </div>
+        
+          <button type="button" class="carosel-nav carosel-nav-left">&lt;</button>
+          <button type="button" class="carosel-nav carosel-nav-right">&gt;</button>
+        </div>
+      </div>
+    </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <!-- news and update section -->
+    <section id="news">
+      <div class="container-fluid bg-dark pt-5">
+        <div class="container bg-dark">
+          <div class="row">
+            <div class="col-8 text-white">
+              <div  class="col-12">
+                <img src="./assets/img/imges/news/news-1.jpg" alt="" width="100%" height="475px">
+              </div>
+              <div class="col-12">
+                <img src="./assets/img/imges/news/news-1.jpg" alt="" width="100%" height="400px">
+              </div>
+            </div>
+            <div class="col-4">
+                <div class="d-flex mx-3">
+                  <div class="vrline py-2"></div>
+                  <h4 class="text-white mx-2">SOCIAL MEDIA</h4>
+                </div>
+              <div class="icon-border my-3">
+                    <div class="d-flex justify-content-between">
+                      <div class="d-flex">
+                      <i
+                        class="fa-brands fa-facebook icon-bg text-white p-3"
+                      ></i>
+                    <p class="text-white my-2 mx-2">Facebook</p>
+                    </div>
+                      <div>
+                       <p class="text-white my-2 px-2">1,2k Follow</p>
+                      </div>       
+                    </div>
+              </div>
+                  <div class="icon-border my-3">
+                    <div class="d-flex justify-content-between">
+                      <div class="d-flex">
+                        <i class="fa-brands fa-twitter icon-bg text-white p-3"></i>
+                    <p class="text-white my-2 mx-2">Twitter</p>
+                    </div>
+                      <div>
+                      <p class="text-white my-2 px-2">1,2k Follow</p>
+                      </div>       
+                    </div>
+                </div>
+                      <div class="icon-border my-3">
+                        <div class="d-flex justify-content-between">
+                          <div class="d-flex">
+                            <i class="fa-brands fa-youtube icon-bg text-white p-3"></i>
+                        <p class="text-white my-2 mx-2">Youtube</p>
+                        </div>
+                          <div>
+                          <p class="text-white my-2 px-2">2,3k Follow</p>
+                          </div>       
+                        </div>
+                  </div>
+                      <div class="icon-border my-3">
+                        <div class="d-flex justify-content-between">
+                          <div class="d-flex">
+                            <i class="fa-brands fa-instagram icon-bg text-white p-3"></i>
+                        <p class="text-white my-2 mx-2">Instagram</p>
+                        </div>
+                          <div>
+                          <p class="text-white my-2 px-2">2,6k Follow</p>
+                          </div>       
+                        </div>
+                  </div>
+
+                  <div class="pt-5">
+                      <div class="d-flex mx-3">
+                        <div class="vrline py-2"></div>
+                        <h4 class="text-white mx-2">HARDWARE GUIDES</h4>
+                      </div>
+
+                      <div class=" text-white">
+                       
+                        <!-- image 1 -->
+                        <div class="px-3 py-3 d-flex">
+                          <div>
+                            <img
+                              src="/assets/img/imges/trending/trending-5.jpg"
+                              alt=""
+                              srcset="" width="80px"
+                            />
+                          </div>
+                          <div class="mx-3">
+                            <p class="text-uppercase  hardware-text">
+                              java developer is making a game where you making a
+                             <br>
+                              <i class="text-muted trend-sub-text">
+                                  Aug , 01 2019 /<span><i class="fa-sharp fa-regular fa-comment"></i></span>12</i>
+                            </p>
+                           
+                          </div>
+                        </div>
+                        <!--  image 2-->
+                        
+                        <div class="px-3 py-3 d-flex">
+                          <div>
+                            <img
+                              src="/assets/img/imges/trending/trending-6.jpg"
+                              alt=""
+                              srcset="" width="80px"
+                            />
+                          </div>
+                          <div class="mx-3">
+                            <p class="text-uppercase  hardware-text">
+                              java developer is making a game where you making a
+                             <br>
+                              <i class="text-muted trend-sub-text">
+                                  Aug , 01 2019 /<span><i class="fa-sharp fa-regular fa-comment"></i></span>12</i>
+                            </p>
+                           
+                          </div>
+                        </div>
+                        <!-- image 3 -->
+                        <div class="px-3 py-3 d-flex">
+                          <div>
+                            <img
+                              src="/assets/img/imges/trending/trending-7.jpg"
+                              alt=""
+                              srcset="" width="80px"
+                            />
+                          </div>
+                          <div class="mx-3">
+                            <p class="text-uppercase  hardware-text">
+                              java developer is making a game where you making a
+                             <br>
+                              <i class="text-muted trend-sub-text">
+                                  Aug , 01 2019 /<span><i class="fa-sharp fa-regular fa-comment"></i></span>12</i>
+                            </p>
+                           
+                          </div>
+                        </div>
+                        <!--  image 4-->
+                        <div class="px-3 py-3 d-flex">
+                          <div>
+                            <img
+                              src="/assets/img/imges/trending/trending-8.jpg"
+                              alt=""
+                              srcset="" width="80px"
+                            />
+                          </div>
+                          <div class="mx-3">
+                            <p class="text-uppercase  hardware-text">
+                              java developer is making a game where you making a
+                             <br>
+                              <i class="text-muted trend-sub-text">
+                                  Aug , 01 2019 /<span><i class="fa-sharp fa-regular fa-comment"></i></span>12</i>
+                            </p>
+                           
+                          </div>
+                        </div>
+                      </div>
+
+                  </div>    
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section id="foot-sec">
+      <footer>
+        <div class="container-fluid foot-bg  pt-5">
+          <div class="container foot-bg pb-5">
+              <div class="row">
+                  <div class="col-4 ">
+                      <div>
+                        <img src="/assets/img/imges/f-logo.png" alt="" srcset="">
+                      </div>
+                      <div>
+                        <p class="text-white pt-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                          Nam non voluptate nesciunt ducimus aliquid tenetur, 
+                          distinctio maxime ratione ullam consequuntur?</p>
+                      </div>
+                      <div class="pt-4">
+                        <i class="fa-brands fa-facebook mx-1 text-white foot-icon p-2"></i>
+                        <i class="fa-brands fa-twitter mx-1 text-white foot-icon p-2"></i>
+                        <i class="fa-brands fa-youtube mx-1 text-white foot-icon p-2"></i>                
+                        <i class="fa-brands fa-instagram mx-1 text-white foot-icon p-2"></i>
+                      </div>
+                  </div>
+                  <div class="col-4 ">
+                        <div class="d-flex ">
+                          <div class="vrline"></div>
+                          <h5 class="text-uppercase text-white mx-2">editor's choice</h5>
+                        </div>
+                          <div class="d-flex pt-4">
+                            <div>
+                              <img src="/assets/img/imges/categories-list/cl-5.jpg" alt="" srcset="" width="150px">
+                            </div>
+                            <div>
+                              <p class="text-uppercase text-white mx-2">a monster prom poster got hijacked a papa roach concert <br>
+                                <i class="text-muted trend-sub-text">
+                                  Aug , 01 2019 /<span><i class="fa-sharp fa-regular fa-comment"></i></span>12</i>
+                              </p>
+                              
+                            </div>
+                          </div>
+                          <div class="d-flex pt-4">
+                            <div>
+                              <img src="/assets/img/imges/categories-list/cl-7.jpg" alt="" srcset="" width="150px">
+                            </div>
+                            <div>
+                              <p class="text-uppercase text-white mx-2">a monster prom poster got hijacked a papa roach concert <br>
+                                <i class="text-muted trend-sub-text">
+                                  Aug , 01 2019 /<span><i class="fa-sharp fa-regular fa-comment"></i></span>12</i>
+                              </p>
+                            
+                            </div>
+                          </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="d-flex ">
+                      <div class="vrline"></div>
+                      <h5 class="text-uppercase text-white mx-2">tags cloud</h5>
+                    </div>
+                    <div class="pt-4 foot-border d-flex">
+                      
+                      <div>
+                        <p class="text-muted p-2">Gaming</p>
+                        <p class="text-muted p-2">Platform</p>
+                        <p class="text-muted p-2">Playstation</p>
+                      </div>
+                      <div>
+                        <p class="text-muted p-2">Hardware </p>
+                        <p class="text-muted p-2">Reviews</p>
+                        <p class="text-muted p-2">Stimulation</p>
+                      </div>
+                      <div>
+                        <p class="text-muted p-2">Stratergy </p>
+                        <p class="text-muted p-2">Scientific</p>
+                        <p class="text-muted p-2">References</p>
+                      </div>
+                      <div>
+                        <p class="text-muted p-2">Role-playing </p>
+                        <p class="text-muted p-2">Adventure</p>
+                    </div>
+                    
+                    </div>
+                  </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/js/script.js"></script>
+
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 1,
+          },
+          1000: {
+            items: 1,
+          },
+        },
+      });
+    </script>
+
+    <!-- <script>
+              $(document).ready(function(){
+          $('.carousel-1').slick({
+          slidesToShow: 4,
+          dots:true,
+          centerMode: true,
+          });
+        });
+    </script> -->
+
+<script>
+  $(".carosel").slick({
+  // infinite: true,
+  // autoplay: true,
+  autoplaySpeed: 2000,
+  // this value should < total # of slides, otherwise the carousel won't slide at all
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  speed: 2000,
+  // autoplay: true,
+  dots: true,
+  arrows: true,
+  prevArrow: $(".carosel-nav-left"),
+  nextArrow: $(".carosel-nav-right")
+});
+
+</script>
+
+
+  </body>
+</html>
